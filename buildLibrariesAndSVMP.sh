@@ -37,7 +37,7 @@ INSTALL_ROOT="${INSTALL_ROOT:-${SLURM_SUBMIT_DIR:-$PWD}/svmp_marlowe}"
 JOBS="${JOBS:-${SLURM_CPUS_ON_NODE:-24}}"
 
 # svMultiPhysics source
-SVMP_REPO="${SVMP_REPO:-https://github.com/SimVascular/svMultiPhysics.git}"
+SVMP_REPO="${SVMP_REPO:-https://github.com/sujaldave/svMultiPhysics.git}"
 SVMP_BRANCH="${SVMP_BRANCH:-bipnWithTrilinos}"
 
 # Library versions. An empty *_GIT_REF builds the repository's default branch
