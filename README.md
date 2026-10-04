@@ -418,7 +418,7 @@ Use the CUDA-aware environment from M.1 and the `PATH` entries from M.4, M.6 and
 
 ```bash
 cd $INSTALL_ROOT
-git clone -b bipnWithTrilinos https://github.com/SimVascular/svMultiPhysics.git
+git clone -b bipnWithTrilinos https://github.com/sujaldave/svMultiPhysics.git
 cd svMultiPhysics && mkdir build && cd build
 
 cmake \
